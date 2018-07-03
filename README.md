@@ -8,7 +8,7 @@ Here we are using a model that is known as `Bag of words` We know that language 
 
 ```python 
 
-defdef  samplesample((bagbag,,  nn==1010):):
+def samples(bag,  n=10):
          "Sample a random n-word sentence from the model described by the bag of words.""Sample  
     return ' '.join(random.choice(bag) for _ in range(n))
 ```
